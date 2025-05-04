@@ -1,0 +1,9 @@
+vpc_cidr        = "10.0.0.0/16"
+vpc_name        = "task2-vpc"
+subnet_cidr     = "10.0.1.0/24"
+az              = "us-east-1a"
+subnet_name     = "task2-subnet"
+ami_id          = "ami-053b0d53c279acc90"
+instance_type   = "t3.micro"
+ebs_volume_size = 12
+instance_name   = "task2-ec2"
